@@ -1,0 +1,27 @@
+make -j2 distclean
+  CLEAN   arch/arm64/crypto
+  CLEAN   arch/arm64/kernel/vdso
+  CLEAN   certs
+  CLEAN   drivers/firmware/efi/libstub
+  CLEAN   arch/arm64/kernel
+  CLEAN   arch/arm64/kvm/hyp/nvhe
+  CLEAN   kernel/debug/kdb
+  CLEAN   kernel
+  CLEAN   lib/raid6
+  CLEAN   lib
+  CLEAN   net/wireless
+  CLEAN   security/apparmor
+  CLEAN   usr
+  CLEAN   arch/arm64/boot
+  CLEAN   scripts/basic
+  CLEAN   scripts/dtc
+  CLEAN   scripts/genksyms
+  CLEAN   scripts/kconfig
+  CLEAN   scripts/mod
+  CLEAN   scripts
+  CLEAN   drivers/scsi
+  CLEAN   drivers/tty/vt
+  CLEAN   drivers/video/logo
+  CLEAN   vmlinux.symvers modules.builtin modules.builtin.modinfo
+  CLEAN   include/config include/generated arch/arm64/include/generated Module.symvers
+Total compile time is 0 minutes 16 seconds
